@@ -15,7 +15,7 @@ We've been using vault at LiveRamp for many years and have a fairly robust set u
 
 The kubernetes integration relies on an in house tool that involves some steps that needs to be done by both devs and ops - see this [doc] for more details.
 
-## What are trying to solve ? 
+## What are we trying to solve ? 
 
 Vault has been set up and used in a time where LiveRamp was a very much different company : an on-premise company.
 
