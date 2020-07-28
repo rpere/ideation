@@ -11,9 +11,9 @@ It can be used as a CLI or as a library and has kubernetes integration ; for mor
 ## What's vault ? 
 
 Vault is a tool for securely accessing secrets.
-We've been using vault at LiveRamp for many years and have a fairly robust set up in GCP - check our [runbook] for more details
+We've been using vault at LiveRamp for many years and have a fairly robust set up in GCP - check our runbook for more details
 
-The kubernetes integration relies on an in house tool that involves some steps that needs to be done by both devs and ops - see this [doc] for more details.
+The kubernetes integration relies on an in house tool that involves some steps that needs to be done by both devs and ops - see this doc for more details.
 
 ## What are we trying to solve ? 
 
@@ -56,6 +56,4 @@ Beyond the kubernetes integration, I think this tool beats vault in all the use 
 
 [MutatingWebhook]: https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/#mutating-webhook-configuration]
 [here]: https://medium.com/weareservian/berglas-with-node-js-on-cloud-run-d7cecfa5aa49
-[doc]: https://github.com/LiveRamp/team_devops/blob/master/articles/K8S_SECRETS.md
 [project]: https://github.com/GoogleCloudPlatform/berglas
-[runbook]: https://github.com/LiveRamp/team_devops/blob/master/articles/VAULT_RUNBOOK.md
